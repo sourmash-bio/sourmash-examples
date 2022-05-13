@@ -1,0 +1,9 @@
+site_name: sourmash examples
+
+site_url: https://ctb.github.io/ribbity/
+
+nav:
+- Home: index.md
+- All examples: examples.md
+- All categories: labels.md
+
