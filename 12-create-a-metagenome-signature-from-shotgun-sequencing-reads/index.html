@@ -70,6 +70,10 @@
             
             <li class="nav-item" data-level="1"><a href="#example-create-a-metagenome-signature-from-shotgun-sequencing-reads" class="nav-link">Example: create a metagenome signature from shotgun sequencing reads</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -81,10 +85,10 @@
 <p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/12">sourmash-bio/sourmash-examples#12</a></em></p>
 <hr />
 <!--
-# yaml config options below.
+# TOML config options below.
 ---
-frontpage: True # should it show up on front page?
-priority: 4 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = true # should it show up on front page?
+priority = 4 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
@@ -99,7 +103,14 @@ curl -JLO ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR595/007/SRR5950647/SRR5950647_2.
 <p>This will produce a 150kb output file, <code>SRR5950647.sig</code>, containing a k-mer sketch built from both files.</p>
 <p>You can see the details of the sketch with <code>sourmash sig describe</code>:</p>
 <pre><code class="language-shell">sourmash sig describe SRR5950647.sig
-</code></pre></div>
+</code></pre>
+<h2 id="categories">Categories</h2>
+<p>This example belongs to the following categories:</p>
+<ul>
+<li><a href="../l-intro/">introductory examples</a></li>
+<li><a href="../l-fastq/">working with FASTQ files</a></li>
+<li><a href="../l-metagenome/">analyzing metagenomes</a></li>
+</ul></div>
             </div>
         </div>
 

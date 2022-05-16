@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://ctb.github.io/ribbity/l-fastq/">
+        <link rel="canonical" href="https://ctb.github.io/ribbity/16-compare-and-visualize-the-similarity-of-many-genomes-using-Average-Nucleotide-Identity-ANI/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Category: working with FASTQ files - sourmash examples</title>
+        <title>Example: compare and visualize the similarity of many genomes using Average Nucleotide Identity (ANI) - sourmash examples</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -68,8 +68,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#category-working-with-fastq-files" class="nav-link">Category: working with FASTQ files</a>
+            <li class="nav-item" data-level="1"><a href="#example-compare-and-visualize-the-similarity-of-many-genomes-using-average-nucleotide-identity-ani" class="nav-link">Example: compare and visualize the similarity of many genomes using Average Nucleotide Identity (ANI)</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#caveats-and-details" class="nav-link">Caveats and details</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#citations" class="nav-link">Citations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -77,9 +89,38 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="category-working-with-fastq-files">Category: working with FASTQ files</h1>
-<p><a href="../14-analyze-a-metagenome-using-66000-GTDB-genomic-representatives/">Example: analyze a metagenome using 66,000 GTDB genomic representatives</a></p>
-<p><a href="../12-create-a-metagenome-signature-from-shotgun-sequencing-reads/">Example: create a metagenome signature from shotgun sequencing reads</a></p></div>
+<h1 id="example-compare-and-visualize-the-similarity-of-many-genomes-using-average-nucleotide-identity-ani">Example: compare and visualize the similarity of many genomes using Average Nucleotide Identity (ANI)</h1>
+<p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/16">sourmash-bio/sourmash-examples#16</a></em></p>
+<hr />
+<p>with sourmash v4.4, sourmash can now estimate Average Nucleotide Identity between genomes: this is the fraction of bases that would be identical in a pairwise alignment. However, sourmash estimates this based on k-mers, instead of using alignments. This is fast and lightweight, and doesn't need access to the full genomes!</p>
+<p>Let's use ANI with <code>sourmash compare</code> and <code>sourmash plot</code> to look at the relationship between 12 <em>E. coli</em> genomes.</p>
+<p>First, you'll need to download the GTDB genomic-reps database, containing 66k genomes, as in <a href="../13-download-and-search-66000-GTDB-genomes-with-a-query-genome/">Example: download and search 66,000 GTDB genomes with a query genome</a>.</p>
+<p>Then, run <code>compare</code>, selecting just the <code>Escherichia</code> genomes:</p>
+<pre><code class="language-shell">sourmash compare --include Escherichia gtdb-rs207.genomic-reps.dna.k31.zip --ani -o ecoli-ani.cmp
+</code></pre>
+<p>This creates a numpy comparison matrix in <code>ecoli-ani.cmp</code> (you can also generate a CSV output with <code>--csv</code>).</p>
+<p>Now, use <code>plot</code> to quickly visualize the comparison matrix:</p>
+<pre><code class="language-shell">sourmash plot ecoli-ani.cmp
+</code></pre>
+<p>This will produce an image <code>ecoli-ani.cmp/matrix.png</code>:</p>
+<p><img alt="ecoli-ani cmp matrix" src="https://user-images.githubusercontent.com/51016/168434572-0a358eea-ee64-4cbd-a1ad-1cfbeeba7846.png" /></p>
+<p>This plot shows the clade structure of the 12 <code>E. coli</code> genomes, including three that have no detectable ANI similarity to any other ANI genomes.</p>
+<p>The genome names corresponding to the label numbers can be found in the <code>ecoli-ani.cmp.labels.txt</code> file.</p>
+<h2 id="caveats-and-details">Caveats and details</h2>
+<p>ANI can be estimated by sourmash from ~85% to 99%, depending on the k-mer size used. See https://github.com/sourmash-bio/sourmash/issues/1859 for some numbers for k=21 and k=31.</p>
+<p>ANI estimates are somewhat dependent on the software and parameters used to calculate them. We are working on a systematic comparison of sourmash's ANI estimates with other ANI software!</p>
+<p>sourmash ANI estimates are only available for scaled signatures (the default, when signatures are generated with <code>sourmash sketch</code>).</p>
+<p>In order to accurately estimate ANI, sourmash signatures need to have enough hashes for the calculation; this is dependent on both the size of the genome(s) and the scaled factor used to generate the signatures. sourmash will output warnings to stderr when the sketches are too small to accurately estimate ANI.</p>
+<p>Some details on how sourmash estimates ANI are <a href="https://sourmash.readthedocs.io/en/latest/classifying-signatures.html?highlight=ani#estimating-ani-from-fracminhash-comparisons">in the sourmash docs</a>.</p>
+<h2 id="citations">Citations</h2>
+<p>The analytical work underlying the ANI calculations is introduced in <a href="https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2">Debiasing FracMinHash and deriving confidence intervals for mutation rates across a wide range of evolutionary distances, Hera et al., 2022</a>.</p>
+<h2 id="categories">Categories</h2>
+<p>This example belongs to the following categories:</p>
+<ul>
+<li><a href="../l-sourmash-v4.4/">examples using sourmash v4.4 functionality</a></li>
+<li><a href="../l-ani/">using Average Nucleotide Identity (ANI)</a></li>
+<li><a href="../l-plotting/">plots and other output visualizations</a></li>
+</ul></div>
             </div>
         </div>
 

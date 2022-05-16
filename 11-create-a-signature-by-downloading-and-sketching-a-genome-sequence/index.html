@@ -70,6 +70,10 @@
             
             <li class="nav-item" data-level="1"><a href="#example-create-a-signature-by-downloading-and-sketching-a-genome-sequence" class="nav-link">Example: create a signature by downloading and sketching a genome sequence</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -81,10 +85,10 @@
 <p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/11">sourmash-bio/sourmash-examples#11</a></em></p>
 <hr />
 <!--
-# yaml config options below.
+# TOML config options below.
 ---
-frontpage: True # should it show up on front page?
-priority: 2 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = true # should it show up on front page?
+priority = 2 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
@@ -101,7 +105,14 @@ priority: 2 # default priority 999 => in with all the rest :). 1 pushes it to to
 <pre><code class="language-shell">sourmash sig describe GCF_000005845.2_ASM584v2_genomic.fna.gz.sig
 </code></pre>
 <hr />
-<p>This example was taken from <a href="https://f1000research.com/articles/8-1006">Large scale sequence comparisons with <em>sourmash</em>, Pierce et al., 2019</a>.</p></div>
+<p>This example was taken from <a href="https://f1000research.com/articles/8-1006">Large scale sequence comparisons with <em>sourmash</em>, Pierce et al., 2019</a>.</p>
+<h2 id="categories">Categories</h2>
+<p>This example belongs to the following categories:</p>
+<ul>
+<li><a href="../l-fasta/">working with FASTA files</a></li>
+<li><a href="../l-intro/">introductory examples</a></li>
+<li><a href="../l-genome/">analyzing genomes</a></li>
+</ul></div>
             </div>
         </div>
 
