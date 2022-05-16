@@ -5,10 +5,10 @@
 ---
 
 <!--
-# yaml config options below.
+# TOML config options below.
 ---
-frontpage: True # should it show up on front page?
-priority: 4 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = true # should it show up on front page?
+priority = 4 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
@@ -31,3 +31,15 @@ You can see the details of the sketch with `sourmash sig describe`:
 ```shell
 sourmash sig describe SRR5950647.sig
 ```
+
+
+
+## Categories
+
+This example belongs to the following categories:
+
+ * [introductory examples](l-intro.md)
+ * [working with FASTQ files](l-fastq.md)
+ * [analyzing metagenomes](l-metagenome.md)
+
+

@@ -1,6 +1,4 @@
-# Category: examples using sourmash v4.2 functionality
+# Category: examples that refer to read mapping
 
 
 [Example: estimate how much of a metagenome sample can be mapped to reference genomes](15-estimate-how-much-of-a-metagenome-sample-can-be-mapped-to-reference-genomes.md)
-
-[Example: use `sourmash tax` to classify a metagenome](3-use-sourmash-tax-to-classify-a-metagenome.md)

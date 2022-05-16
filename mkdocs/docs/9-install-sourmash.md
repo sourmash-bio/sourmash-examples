@@ -6,8 +6,8 @@
 
 <!--
 ---
-frontpage: True
-priority: 1
+frontpage = true
+priority = 1
 ---
 -->
 
@@ -32,3 +32,13 @@ We do not yet officially support Windows, but sourmash can be installed on Windo
 ## More detailed installation instructions
 
 Please see [the quickstart tutorial](https://sourmash.readthedocs.io/en/latest/tutorial-basic.html) for more information on how to install sourmash using conda.
+
+
+## Categories
+
+This example belongs to the following categories:
+
+ * [introductory examples](l-intro.md)
+ * [installation examples](l-installation.md)
+
+

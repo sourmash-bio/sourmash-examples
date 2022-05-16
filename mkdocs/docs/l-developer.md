@@ -1,6 +1,4 @@
-# examples for developers
+# Category: examples for developers
 
 
-
-[Example: creating a conda environment with the latest version of sourmash](6-creating-a-conda-environment-with-the-latest-version-of-sourmash.md)
-
+[Example: create a conda environment with the latest version of sourmash](6-create-a-conda-environment-with-the-latest-version-of-sourmash.md)

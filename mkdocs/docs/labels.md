@@ -6,19 +6,43 @@
 
 
 
-[examples using GTDB RS207 - 3 examples](l-gtdb-rs207.md)
+[introductory examples - 6 examples](l-intro.md)
 
 
 
-[introductory examples - 5 examples](l-intro.md)
+[examples using sourmash v4.4 functionality - 2 examples](l-sourmash-v4.4.md)
+
+
+
+[using Average Nucleotide Identity (ANI) - 1 examples](l-ani.md)
+
+
+
+[plots and other output visualizations - 1 examples](l-plotting.md)
+
+
+
+[examples using sourmash v4.2 functionality - 2 examples](l-sourmash-v4.2.md)
+
+
+
+[examples using GTDB RS207 - 4 examples](l-gtdb-rs207.md)
+
+
+
+[intermediate examples - 2 examples](l-intermediate.md)
+
+
+
+[analyzing metagenomes - 3 examples](l-metagenome.md)
+
+
+
+[examples that refer to read mapping - 1 examples](l-mapping.md)
 
 
 
 [working with FASTQ files - 2 examples](l-fastq.md)
-
-
-
-[analyzing metagenomes - 2 examples](l-metagenome.md)
 
 
 
@@ -58,19 +82,7 @@
 
 
 
-[intermediate examples - 1 examples](l-intermediate.md)
-
-
-
 [examples of using taxonomy - 2 examples](l-taxonomy.md)
-
-
-
-[examples using sourmash v4.2 functionality - 1 examples](l-sourmash-v4.2.md)
-
-
-
-[examples using sourmash v4.4 functionality - 1 examples](l-sourmash-v4.4.md)
 
 
 

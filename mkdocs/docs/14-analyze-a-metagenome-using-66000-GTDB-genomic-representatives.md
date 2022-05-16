@@ -5,10 +5,10 @@
 ---
 
 <!--
-# yaml config options below.
+# TOML config options below.
 ---
-frontpage: True # should it show up on front page?
-priority: 5 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = true # should it show up on front page?
+priority = 5 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
@@ -40,3 +40,16 @@ the recovered matches hit 4.0% of the abundance-weighted query
 This a [minimum metagenome cover](https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2) for the metagenome, based on the genomes in the GTDB database: in brief, it provides a shortest list of genomes that contain all of the known content in the metagenome (in this case, about 4%).
 
 Note: more of the metagenome might be matched if you used a larger database or a database that included eukaryotic and/or host sequence.
+
+
+
+## Categories
+
+This example belongs to the following categories:
+
+ * [examples using GTDB RS207](l-gtdb-rs207.md)
+ * [introductory examples](l-intro.md)
+ * [working with FASTQ files](l-fastq.md)
+ * [analyzing metagenomes](l-metagenome.md)
+
+

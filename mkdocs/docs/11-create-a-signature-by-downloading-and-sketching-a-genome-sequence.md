@@ -5,10 +5,10 @@
 ---
 
 <!--
-# yaml config options below.
+# TOML config options below.
 ---
-frontpage: True # should it show up on front page?
-priority: 2 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = true # should it show up on front page?
+priority = 2 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
@@ -37,3 +37,14 @@ sourmash sig describe GCF_000005845.2_ASM584v2_genomic.fna.gz.sig
 ---
 
 This example was taken from [Large scale sequence comparisons with *sourmash*, Pierce et al., 2019](https://f1000research.com/articles/8-1006).
+
+
+## Categories
+
+This example belongs to the following categories:
+
+ * [working with FASTA files](l-fasta.md)
+ * [introductory examples](l-intro.md)
+ * [analyzing genomes](l-genome.md)
+
+

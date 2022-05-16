@@ -1,6 +1,4 @@
-# examples of using manifests
+# Category: examples of using manifests
 
 
-
-[Example: searching collection manifests directly](5-searching-collection-manifests-directly.md)
-
+[Example: search collection manifests directly](5-search-collection-manifests-directly.md)

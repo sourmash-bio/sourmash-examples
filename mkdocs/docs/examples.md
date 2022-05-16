@@ -26,29 +26,41 @@
 
 
 
-[Example: creating a conda environment with the latest version of sourmash](6-creating-a-conda-environment-with-the-latest-version-of-sourmash.md)
+[Example: ask for an example of how to use sourmash to do something](18-ask-for-an-example-of-how-to-use-sourmash-to-do-something.md)
 
 
 
-[Example: creating and using an LCA database for taxonomic analysis](2-creating-and-using-an-LCA-database-for-taxonomic-analysis.md)
+[Example: compare and visualize the similarity of many genomes using Average Nucleotide Identity (ANI)](16-compare-and-visualize-the-similarity-of-many-genomes-using-Average-Nucleotide-Identity-ANI.md)
 
 
 
-[Example: downloading, sketching, and searching a collection of FASTA files](1-downloading-sketching-and-searching-a-collection-of-FASTA-files.md)
+[Example: create a conda environment with the latest version of sourmash](6-create-a-conda-environment-with-the-latest-version-of-sourmash.md)
 
 
 
-[Example: searching collection manifests directly](5-searching-collection-manifests-directly.md)
+[Example: create and use an LCA database for taxonomic analysis](2-create-and-use-an-LCA-database-for-taxonomic-analysis.md)
 
 
 
-[Example: using `genome_updater.sh` and `sketch fromfile` to build a custom database](7-using-genomeupdater.sh-and-sketch-fromfile-to-build-a-custom-database.md)
+[Example: download, sketch, and search a collection of FASTA files](1-download-sketch-and-search-a-collection-of-FASTA-files.md)
 
 
 
-[Example: using `sourmash tax` to classify a metagenome](3-using-sourmash-tax-to-classify-a-metagenome.md)
+[Example: estimate how much of a metagenome sample can be mapped to reference genomes](15-estimate-how-much-of-a-metagenome-sample-can-be-mapped-to-reference-genomes.md)
 
 
 
-[Example: using picklists and manifests to work with a small subset of a large database](4-using-picklists-and-manifests-to-work-with-a-small-subset-of-a-large-database.md)
+[Example: search collection manifests directly](5-search-collection-manifests-directly.md)
+
+
+
+[Example: use `genome_updater.sh` and `sketch fromfile` to build a custom database](7-use-genomeupdater.sh-and-sketch-fromfile-to-build-a-custom-database.md)
+
+
+
+[Example: use `sourmash tax` to classify a metagenome](3-use-sourmash-tax-to-classify-a-metagenome.md)
+
+
+
+[Example: use picklists and manifests to work with a small subset of a large database](4-use-picklists-and-manifests-to-work-with-a-small-subset-of-a-large-database.md)
 

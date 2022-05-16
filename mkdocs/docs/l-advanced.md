@@ -1,10 +1,6 @@
-# advanced examples
+# Category: advanced examples
 
 
+[Example: create a conda environment with the latest version of sourmash](6-create-a-conda-environment-with-the-latest-version-of-sourmash.md)
 
-[Example: creating a conda environment with the latest version of sourmash](6-creating-a-conda-environment-with-the-latest-version-of-sourmash.md)
-
-
-
-[Example: searching collection manifests directly](5-searching-collection-manifests-directly.md)
-
+[Example: search collection manifests directly](5-search-collection-manifests-directly.md)

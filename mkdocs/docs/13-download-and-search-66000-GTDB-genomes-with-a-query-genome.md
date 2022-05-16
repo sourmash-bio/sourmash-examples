@@ -5,10 +5,10 @@
 ---
 
 <!--
-# yaml config options below.
+# TOML config options below.
 ---
-frontpage: True # should it show up on front page?
-priority: 3 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = true # should it show up on front page?
+priority = 3 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
@@ -58,3 +58,15 @@ similarity   match
 ```
 
 and you can record the results in a CSV file with `-o <output.csv>`.
+
+
+## Categories
+
+This example belongs to the following categories:
+
+ * [working with FASTA files](l-fasta.md)
+ * [examples using GTDB RS207](l-gtdb-rs207.md)
+ * [introductory examples](l-intro.md)
+ * [analyzing genomes](l-genome.md)
+
+
