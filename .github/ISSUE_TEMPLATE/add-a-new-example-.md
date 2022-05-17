@@ -8,10 +8,10 @@ assignees: ''
 ---
 
 <!--
-# yaml config options below.
+# toml config options below - see https://toml.io/en/
 ---
-frontpage: False # should it show up on front page?
-priority: 999 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = false # should it show up on front page?
+priority = 999 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
