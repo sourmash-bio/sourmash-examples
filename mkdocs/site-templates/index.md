@@ -38,3 +38,6 @@ on gitter](https://gitter.im/sourmash-bio/community)!
 
 ## [All categories](labels.md)
 
+---
+
+*This site built with [ribbity](https://ctb.github.io/ribbity-docs/) and [mkdocs](https://www.mkdocs.org/)*
