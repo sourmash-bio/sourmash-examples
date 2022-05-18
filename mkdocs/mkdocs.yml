@@ -1,6 +1,6 @@
 site_name: sourmash examples
 
-site_url: https://ctb.github.io/ribbity/
+site_url: https://sourmash-bio.github.io/sourmash-examples/
 
 nav:
 - Home: index.md
