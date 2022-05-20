@@ -51,11 +51,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/21-test-new-example/</loc>
-         <lastmod>2022-05-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://sourmash-bio.github.io/sourmash-examples/3-use-sourmash-tax-to-classify-a-metagenome/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
