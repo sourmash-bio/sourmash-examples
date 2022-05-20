@@ -85,7 +85,7 @@
 <p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/7">sourmash-bio/sourmash-examples#7</a></em></p>
 <hr />
 <p>I wanted to build a database with custom k-size values containing all genomes under <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=22&amp;lvl=3&amp;lin=f&amp;keep=1&amp;srchmode=1&amp;unlock">taxid Shewanella</a>.</p>
-<p>First, I installed https://github.com/pirovc/genome_updater:</p>
+<p>First, I installed <a href="https://github.com/pirovc/genome_updater:">https://github.com/pirovc/genome_updater:</a></p>
 <pre><code class="language-shell">mamba install -y genome_updater
 </code></pre>
 <p>Then I ran:</p>
@@ -96,7 +96,7 @@
 <pre><code class="language-shell">../database-examples/genbank-to-fromfile.py shew/2022-05-06_13-58-43/files/GCA_* \
         -S shew/2022-05-06_13-58-43/assembly_summary.txt -o shewanella.csv
 </code></pre>
-<p>(using a checkout of https://github.com/sourmash-bio/database-examples at <a href="https://github.com/sourmash-bio/database-examples/releases/tag/v0.1">this release</a>.)</p>
+<p>(using a checkout of <a href="https://github.com/sourmash-bio/database-examples">https://github.com/sourmash-bio/database-examples</a> at <a href="https://github.com/sourmash-bio/database-examples/releases/tag/v0.1">this release</a>.)</p>
 <p>This resulted in the following output:</p>
 <pre><code>Loaded 439 rows from 'shew/2022-05-06_13-58-43/assembly_summary.txt'
 Any survivable errors will be reported to 'shewanella.csv.error-report.txt'

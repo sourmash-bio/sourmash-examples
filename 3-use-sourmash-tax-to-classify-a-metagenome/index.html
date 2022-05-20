@@ -84,9 +84,9 @@
 <h1 id="example-use-sourmash-tax-to-classify-a-metagenome">Example: use <code>sourmash tax</code> to classify a metagenome</h1>
 <p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/3">sourmash-bio/sourmash-examples#3</a></em></p>
 <hr />
-<p>First, download and sketch 64 genomes from <a href="https://www.biorxiv.org/content/10.1101/155358v3">Awad et al., 2017</a> using the instructions in <a href="../1-download-sketch-and-search-a-collection-of-FASTA-files/">Example: download, sketch, and search a collection of FASTA files</a>. You'll need <code>podar-ref.zip</code>.</p>
+<p>First, download and sketch 64 genomes from <a href="https://www.biorxiv.org/content/10.1101/155358v3">Awad et al., 2017</a> using the instructions in <a href="../1-download-sketch-and-search-a-collection-of-fasta-files/">Example: download, sketch, and search a collection of FASTA files</a>. You'll need <code>podar-ref.zip</code>.</p>
 <p>Next, you'll need <a href="https://osf.io/4yhjw/"><code>podar-lineage.csv</code></a> -</p>
-<pre><code class="language-shell">curl -L https://osf.io/4yhjw/download -o podar-lineage.csv
+<pre><code class="language-shell">curl -L [https://osf.io/4yhjw/download](https://osf.io/4yhjw/download) -o podar-lineage.csv
 </code></pre>
 <p>Next we'll make a fake metagenome consisting of a signature created by merging two <em>Shewanella baltica</em> signatures.</p>
 <p>First, extract signatures with <code>Shewanella</code> in the name from <code>podar-ref.zip</code>:</p>

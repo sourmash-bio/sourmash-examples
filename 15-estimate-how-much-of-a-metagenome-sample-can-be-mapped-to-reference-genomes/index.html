@@ -98,7 +98,7 @@
 <hr />
 <p>One question we frequently have about a metagenome is how much of it is <em>known</em>, and one way this can be answered is by asking <strong>how many of my metagenome reads can be mapped to a set of reference genome(s)?</strong></p>
 <p>This can be estimated with sourmash fairly quickly, using any collection of reference genomes you have available!</p>
-<p>In <a href="../14-analyze-a-metagenome-using-66000-GTDB-genomic-representatives/">Example: analyze a metagenome using 66,000 GTDB genomic representatives</a>, we showed how to analyze a metagenome's contents using <code>sourmash gather</code> against the GTDB genomic representatives database. The output was:</p>
+<p>In <a href="../14-analyze-a-metagenome-using-66000-gtdb-genomic-representatives/">Example: analyze a metagenome using 66,000 GTDB genomic representatives</a>, we showed how to analyze a metagenome's contents using <code>sourmash gather</code> against the GTDB genomic representatives database. The output was:</p>
 <pre><code>overlap     p_query p_match avg_abund
 ---------   ------- ------- ---------
 383.0 kbp      2.0%    7.8%       1.6    GCF_003697165.2 Escherichia coli DSM ...
@@ -120,7 +120,7 @@ the recovered matches hit 4.0% of the abundance-weighted query
 <p>A few terms and conditions apply -</p>
 <ul>
 <li>you need to use abundance-weighted signatures, as calculated here: <a href="../12-create-a-metagenome-signature-from-shotgun-sequencing-reads/">Example: create a metagenome signature from shotgun sequencing reads</a></li>
-<li>the fraction of the genome that can be classified against a database very much depends on that database! So you  want to use the most inclusive database that meets your needs. This can include both <a href="https://sourmash.readthedocs.io/en/latest/databases.html">prepared databases</a> like Genbank, and private databases (see <a href="../1-download-sketch-and-search-a-collection-of-FASTA-files/">Example: download, sketch, and search a collection of FASTA files</a>).</li>
+<li>the fraction of the genome that can be classified against a database very much depends on that database! So you  want to use the most inclusive database that meets your needs. This can include both <a href="https://sourmash.readthedocs.io/en/latest/databases.html">prepared databases</a> like Genbank, and private databases (see <a href="../1-download-sketch-and-search-a-collection-of-fasta-files/">Example: download, sketch, and search a collection of FASTA files</a>).</li>
 </ul>
 <h2 id="publications-and-software">Publications and software</h2>
 <p>If you're curious about the scientific details and want to see this applied to some larger metagenomes, please see <a href="https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2">Lightweight compositional analysis of metagenomes with FracMinHash and minimum metagenome covers, Irber et al., 2022</a>.</p>

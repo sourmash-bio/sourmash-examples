@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://sourmash-bio.github.io/sourmash-examples/13-download-and-search-66000-GTDB-genomes-with-a-query-genome/">
+        <link rel="canonical" href="https://sourmash-bio.github.io/sourmash-examples/21-test-new-example/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Example: download and search 66,000 GTDB genomes with a query genome - sourmash examples</title>
+        <title>Example: test new example! - sourmash examples</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -68,12 +68,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#example-download-and-search-66000-gtdb-genomes-with-a-query-genome" class="nav-link">Example: download and search 66,000 GTDB genomes with a query genome</a>
+            <li class="nav-item" data-level="1"><a href="#example-test-new-example" class="nav-link">Example: test new example!</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -81,58 +77,20 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="example-download-and-search-66000-gtdb-genomes-with-a-query-genome">Example: download and search 66,000 GTDB genomes with a query genome</h1>
-<p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/13">sourmash-bio/sourmash-examples#13</a></em></p>
+<h1 id="example-test-new-example">Example: test new example!</h1>
+<p><em><a href="https://github.com/sourmash-bio/sourmash-examples/issues/21">sourmash-bio/sourmash-examples#21</a></em></p>
 <hr />
 <!--
-# TOML config options below.
+# toml config options below - see [https://toml.io/en/](https://toml.io/en/)
 ---
-frontpage = true # should it show up on front page?
-priority = 3 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
+frontpage = false # should it show up on front page?
+priority = 999 # default priority 999 => in with all the rest :). 1 pushes it to top, etc.
 ---
 -->
 
-<p>You'll need to build the genome signature file in <a href="../11-create-a-signature-by-downloading-and-sketching-a-genome-sequence/">Example: create a signature by downloading and sketching a genome sequence</a> first.</p>
-<p>Then, download the GTDB genomic representatives database:</p>
-<pre><code class="language-shell">curl -JLO https://osf.io/3a6gn/download
-</code></pre>
-<p>This will create a 1.7 GB file, <code>gtdb-rs207.genomic-reps.dna.k31.zip</code>,  which contains 66,000 genome sketches from the <a href="https://forum.gtdb.ecogenomic.org/t/announcing-gtdb-r07-rs207/264">Genome Taxonomy Database, release 207</a>.</p>
-<p>Now search the genome against the GTDB database:</p>
-<pre><code class="language-shell">sourmash search GCF_000005845.2_ASM584v2_genomic.fna.gz.sig gtdb-rs207.genomic-reps.dna.k31.zip
-</code></pre>
-<p>This will take about 5 minutes.</p>
-<p>The output will look like this:</p>
-<pre><code>8 matches; showing first 3:
-similarity   match
-----------   -----
- 29.9%       GCF_003697165.2 Escherichia coli DSM 30083 = JCM 1649 = A...
- 14.6%       GCF_002965065.1 Escherichia sp. MOD1-EC7003 strain=MOD1-E...
- 14.2%       GCF_000026225.1 Escherichia fergusonii ATCC 35469 strain=...
-</code></pre>
-<p>showing that this genome is, indeed, an <em>E. coli</em> genome :).</p>
-<p>The similarity in the left column is <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard similarity</a>, calculated using the k-mers in the query genome sketch against the k-mers in each of the database genome sketches.</p>
-<p>You can increase the number of output results with <code>-n</code>:</p>
-<pre><code>8 matches:
-similarity   match
-----------   -----
- 29.9%       GCF_003697165.2 Escherichia coli DSM 30083 = JCM 1649 = A...
- 14.6%       GCF_002965065.1 Escherichia sp. MOD1-EC7003 strain=MOD1-E...
- 14.2%       GCF_000026225.1 Escherichia fergusonii ATCC 35469 strain=...
- 14.1%       GCF_902498915.1 Escherichia ruysiae, OPT1704
- 14.1%       GCF_004211955.1 Escherichia sp. E1V33 strain=E1V33, ASM42...
- 13.5%       GCF_005843885.1 Escherichia sp. E4742 strain=E4742, ASM58...
- 10.3%       GCF_001660175.1 Escherichia sp. B1147 strain=B1147, ASM16...
- 10.1%       GCF_011881725.1 Escherichia coli strain=SCPM-O-B-8794, AS...
-</code></pre>
-<p>and you can record the results in a CSV file with <code>-o &lt;output.csv&gt;</code>.</p>
-<h2 id="categories">Categories</h2>
-<p>This example belongs to the following categories:</p>
-<ul>
-<li><a href="../l-fasta/">working with FASTA files</a></li>
-<li><a href="../l-gtdb-rs207/">examples using GTDB RS207</a></li>
-<li><a href="../l-intro/">introductory examples</a></li>
-<li><a href="../l-genome/">analyzing genomes</a></li>
-</ul></div>
+<p>this should auto-build.</p>
+<p>add your example here!</p>
+<p>all <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">github markdown formatting</a> is available!</p></div>
             </div>
         </div>
 
