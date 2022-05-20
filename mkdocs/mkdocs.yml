@@ -1,9 +1,0 @@
-site_name: sourmash examples
-
-site_url: https://sourmash-bio.github.io/sourmash-examples/
-
-nav:
-- Home: index.md
-- All examples: examples.md
-- All categories: labels.md
-
