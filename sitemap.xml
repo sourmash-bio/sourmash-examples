@@ -1,203 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/index.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/1-download-sketch-and-search-a-collection-of-fasta-files/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/1-download-sketch-and-search-a-collection-of-fasta-files.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/11-create-a-signature-by-downloading-and-sketching-a-genome-sequence/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/11-create-a-signature-by-downloading-and-sketching-a-genome-sequence.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/12-create-a-metagenome-signature-from-shotgun-sequencing-reads/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/12-create-a-metagenome-signature-from-shotgun-sequencing-reads.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/13-download-and-search-66000-gtdb-genomes-with-a-query-genome/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/13-download-and-search-66000-gtdb-genomes-with-a-query-genome.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/14-analyze-a-metagenome-using-66000-gtdb-genomic-representatives/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/14-analyze-a-metagenome-using-66000-gtdb-genomic-representatives.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/15-estimate-how-much-of-a-metagenome-sample-can-be-mapped-to-reference-genomes/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/15-estimate-how-much-of-a-metagenome-sample-can-be-mapped-to-reference-genomes.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/16-compare-and-visualize-the-similarity-of-many-genomes-using-average-nucleotide-identity-ani/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/16-compare-and-visualize-the-similarity-of-many-genomes-using-average-nucleotide-identity-ani.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/18-ask-for-an-example-of-how-to-use-sourmash-to-do-something/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/18-ask-for-an-example-of-how-to-use-sourmash-to-do-something.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/2-create-and-use-an-lca-database-for-taxonomic-analysis/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/2-create-and-use-an-lca-database-for-taxonomic-analysis.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/22-detect-potential-contaminants-in-unassembled-and-uncorrected-pacbio-sequencing-data/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/22-detect-potential-contaminants-in-unassembled-and-uncorrected-pacbio-sequencing-data.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/3-use-sourmash-tax-to-classify-a-metagenome/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/3-use-sourmash-tax-to-classify-a-metagenome.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/4-use-picklists-and-manifests-to-work-with-a-small-subset-of-a-large-database/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/4-use-picklists-and-manifests-to-work-with-a-small-subset-of-a-large-database.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/5-search-collection-manifests-directly/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/5-search-collection-manifests-directly.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/6-create-a-conda-environment-with-the-latest-version-of-sourmash/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/6-create-a-conda-environment-with-the-latest-version-of-sourmash.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/7-use-genomeupdater.sh-and-sketch-fromfile-to-build-a-custom-database-from-ncbi/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/7-use-genomeupdater.sh-and-sketch-fromfile-to-build-a-custom-database-from-ncbi.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/9-install-sourmash/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/9-install-sourmash.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/examples/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/examples.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-advanced/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-advanced.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-ani/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-ani.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-databases/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-databases.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-developer/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-developer.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-fasta/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-fasta.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-fastq/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-fastq.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-genome/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-genome.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-gtdb-rs207/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-gtdb-rs207.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-installation/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-installation.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-intermediate/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-intermediate.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-intro/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-intro.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-manifests/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-manifests.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-mapping/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-mapping.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-metagenome/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-metagenome.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-needs-improvement/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-needs-improvement.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-picklists/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-picklists.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-plotting/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-plotting.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-sourmash-v4.0/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-sourmash-v4.0.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-sourmash-v4.2/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-sourmash-v4.2.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-sourmash-v4.4/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-sourmash-v4.4.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/l-taxonomy/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/l-taxonomy.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sourmash-bio.github.io/sourmash-examples/labels/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <loc>https://sourmash-bio.github.io/sourmash-examples/labels.html</loc>
+         <lastmod>2022-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
